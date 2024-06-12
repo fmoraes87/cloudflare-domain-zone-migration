@@ -1,11 +1,11 @@
 ## Config
 Create .env file and set
-
+```
 FROM_CLOUDFLARE_GLOBAL_KEY = 
 FROM_CLOUDFLARE_EMAIL = 
 TO_CLOUDFLARE_GLOBAL_KEY = 
 TO_CLOUDFLARE_EMAIL = 
-
+```
 
 ## Running the application in dev mode
 
@@ -17,6 +17,7 @@ You can run your application in dev mode that enables live coding using:
 # Sync Domain 
 
 URL: http://localhost:8080/graphql
+
 ```
 mutation copyZone{
 	copyZone(
